@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Karla';
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5eff5;
+  margin: auto;
+  height: 100vh;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  height: 65%;
+  overflow: hidden;
+  border-radius: 6px;
+  box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.3);
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: white;
+  height: 50%;
+  padding: 1rem 3rem;
+}
+
+.main-content h1 {
+  color: hsl(179, 62%, 43%);
+}
+
+.main-content h2 {
+  color: hsl(71, 73%, 54%);
+}
+
+.main-content p {
+  color: hsl(218, 22%, 67%);
+}
+
+.para-top {
+  padding-bottom: 0.5rem;
+}
+
+.card-bottom {
+  display: flex;
+  height: 50%;
+}
+
+.sign-up {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: white;
+  background-color: hsl(179, 62%, 43%);
+  padding: 2rem 3rem;
+  flex: 1;
+}
+
+.sign-up button {
+  height: 3rem;
+  border-radius: 5px;
+  border: none;
+  background-color: hsl(71, 73%, 54%);
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.sign-up button span {
+  font-weight: 700;
+  color: hsl(204, 43%, 93%);
+}
+
+.price h3 {
+  font-size: 2.5rem;
+  padding-right: 1rem;
+}
+
+.price p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: hsl(204, 43%, 93%);
+}
+
+.price {
+  display: flex;
+  align-items: center;
+}
+
+.why-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  background-color: #4ebcba;
+  padding: 3rem 3rem;
+  flex: 1;
+}
+
+.why-us h2 {
+}
+
+.why-us p {
+  width: 75%;
+  line-height: 1.4;
+}

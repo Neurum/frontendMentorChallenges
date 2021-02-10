@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+h1 {
+  font-size: 5rem;
+  color: #020024;
+}
+
+h3 {
+  font-size: 2rem;
+  color: #090979;
+  padding-bottom: 1rem;
+}
+
+h3 a {
+  color: #090979;
+  pointer: cursor;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #020024;
+  margin-bottom: 3rem;
+}
+
+hr {
+  width: 70%;
+  color: #020024;
+  background-color: #020024;
+  height: 1px;
+  border: none;
+  margin-bottom: 1rem;
+}
+
+a {
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ccc;
+  width: 50%;
+  margin-top: 7rem;
+  border-radius: 10px;
+  box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.5);
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.challenges {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+
+.btn:link,
+.btn:visited {
+  text-align: center;
+  text-decoration: none;
+  padding: 15px 40px;
+  border-radius: 10px;
+  transition: all 0.2s;
+  width: 30%;
+}
+
+.btn-color {
+  color: #ccc;
+  background-image: linear-gradient(
+    90deg,
+    rgba(0, 212, 255, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(2, 0, 36, 1) 100%
+  );
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}

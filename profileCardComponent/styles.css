@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+.background {
+  position: relative;
+  overflow: hidden;
+  transform: rotate(45deg);
+  background-color: #19a1ad;
+  background-image: url('./images/bg-pattern-bottom.svg');
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  background-color: black;
+}
